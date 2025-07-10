@@ -1,0 +1,38 @@
+.project {
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* gap: 20px; */
+ flex-wrap: wrap;
+}
+
+.project a img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  box-shadow: 
+    0 0 5px rgb(188, 190, 190),
+    0 0 2px rgb(45, 50, 50),
+    0 0 5px rgb(188, 244, 244);
+}
+
+.project a img:hover{
+    transform: scale(1.01);
+    animation: flip 1s ease-in-out;
+}
+
+ @keyframes flip{
+    from{ transform:rotate(0deg) ;}
+    to{transform:rotate(10deg);
+    /* box-shadow: 0 0 15px rgba(249, 147, 13, 0.8), 0 0 30px rgba(249, 252, 252, 0.5);} */
+ }}
+/* width:300px;
+border-radius: 20px;
+height: 200px;
+margin-right: 50px;
+ box-shadow: 
+    0 0 5px rgb(188, 190, 190),
+    0 0 2px rgb(45, 50, 50),
+    0 0 5px rgb(188, 244, 244);
+margin-bottom: 50px;} */
