@@ -119,7 +119,7 @@ const Home = () => {
             marginTop: "100px",
           }}
         >
-          <a href="https://www.instagram.com/george__ve?igsh=MWNhMWM1Y241ZzJ1Zw==">
+          <a href="https://github.com/hanamelese">
             <i className="fab fa-github"></i>
           </a>
 
