@@ -1,9 +1,6 @@
 import React from "react";
 
 import "./css/work.css";
-//import animal from "./assets/Business.png";
-// import animal from "./assets/Business.png";
-//import netflix from "./assets/netflix.webp";
 import photo from "./assets/charity.png";
 import flutter from "./assets/flutter.png";
 import react from "./assets/react.png";
